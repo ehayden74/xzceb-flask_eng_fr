@@ -19,7 +19,7 @@ language_translator = LanguageTranslatorV3(version='2019-03-06', authenticator=a
 
 language_translator.set_service_url(url)
 
-def english_to_french(english_text):
+def englishToFrench(english_text):
     #write the code here
     '''
     function document string
@@ -34,7 +34,7 @@ def english_to_french(english_text):
     french_text = french_text['translations'][0]['translation']
     return french_text
 
-def french_to_english(french_text):
+def frenchToEnglish(french_text):
     #write the code here
     '''
     function document string
